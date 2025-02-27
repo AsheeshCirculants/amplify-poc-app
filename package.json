@@ -10,10 +10,21 @@
     "@mui/material": "^6.4.4",
     "@mui/system": "^6.4.3",
     "cra-template": "1.2.0",
+    "@aws-amplify/api": "^6.3.1",
+    "@aws-amplify/api-rest": "^4.0.70",
+    "@aws-amplify/ui-react": "^6.9.1",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "aws-amplify": "^6.13.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1"
+    "react-router-dom": "^7.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
