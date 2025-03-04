@@ -88,20 +88,21 @@ import {Routes,Route} from 'react-router-dom';
 import Signup from "./components/Signup";
 import Navbar from "./components/Navbar";
 import {AmplifySignOut,withAuthenticator,Authenticator} from '@aws-amplify/ui-react';
-import {API} from 'aws-amplify';
+import { API } from '@aws-amplify/api';
+
 
 Amplify.configure(awsExports);
 
 
 const App = ()=>{
    const callAmplifyApi = ()=>{
-     API.get('apidd1b66a8','/customers/customerId',{});
+     API.get('todos','/items',{});
    }
 
      return (
      <>
   <Navbar />
-  <button onClick = {this.callAmplifyApi} Call Amplify Rest Api></button>
+  <button onClick = {this.callAmplifyApi}> Call Amplify Rest Api</button> 
      <Routes>
        
        

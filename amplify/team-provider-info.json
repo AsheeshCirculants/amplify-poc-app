@@ -16,7 +16,9 @@
         "amplify60e2f83b": {
           "deploymentBucketName": "amplify-amplify-dev-b6ca5-deployment",
           "s3Key": "amplify-builds/amplify60e2f83b-63453358384a79553041-build.zip"
-        }
+        },
+        "todoLambda": {},
+        "todolambda": {}
       },
       "api": {
         "apidd1b66a8": {}
@@ -29,6 +31,44 @@
           "appId": "d2ekn6upknpov9",
           "type": "manual"
         }
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify-prod-c6d6f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::330086204106:role/amplify-amplify-prod-c6d6f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::330086204106:role/amplify-amplify-prod-c6d6f-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-amplify-prod-c6d6f-deployment",
+      "UnauthRoleName": "amplify-amplify-prod-c6d6f-unauthRole",
+      "StackName": "amplify-amplify-prod-c6d6f",
+      "StackId": "arn:aws:cloudformation:eu-north-1:330086204106:stack/amplify-amplify-prod-c6d6f/25fbcdd0-f8ab-11ef-9d69-0a4b8bab5c61",
+      "AmplifyAppId": "d2ekn6upknpov9",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplify-prod-c6d6f-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "amplify3fc620dd": {}
+      },
+      "function": {
+        "amplify60e2f83b": {
+          "deploymentBucketName": "amplify-amplify-prod-c6d6f-deployment",
+          "s3Key": "amplify-builds/amplify60e2f83b-63453358384a79553041-build.zip"
+        },
+        "todoLambda": {
+          "deploymentBucketName": "amplify-amplify-prod-c6d6f-deployment",
+          "s3Key": "amplify-builds/todoLambda-4d4d725a786e49495457-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2ekn6upknpov9",
+          "type": "manual"
+        }
+      },
+      "api": {
+        "todo": {}
       }
     }
   }

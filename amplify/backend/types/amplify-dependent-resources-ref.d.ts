@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
   "api": {
-    "apidd1b66a8": {
+    "todo": {
       "ApiId": "string",
       "ApiName": "string",
       "RootUrl": "string"
@@ -19,6 +19,13 @@ export type AmplifyDependentResourcesAttributes = {
   },
   "function": {
     "amplify60e2f83b": {
+      "Arn": "string",
+      "LambdaExecutionRole": "string",
+      "LambdaExecutionRoleArn": "string",
+      "Name": "string",
+      "Region": "string"
+    },
+    "todoLambda": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "LambdaExecutionRoleArn": "string",
