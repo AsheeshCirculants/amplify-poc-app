@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f5f6fa;
+}
+
+.container {
+  width: 100%;
+  float: left;
+  height: auto;
+  padding: 5%;
+}
+
+.section-users{
+  width: 90% !important;
+  margin-left: 5%;
+  float: left;
+  height: auto;
+}
+
+.top-bar {
+  background-color: #333;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar {
+  background-color: #444;
+  color: white;
+  width: 250px;
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 20px;
+  width: 100%;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+}
+
+.user-container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.custom-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background: white;
+  cursor: pointer;
+}
+
+.custom-select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.form-card {
+  width: 70%;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-heading {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.form-description {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.form-heading {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.form-description {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.no-users {
+  text-align: center;
+  font-size: 16px;
+  color: gray;
+  margin-top: 20px;
+}
+
+.delete-btn {
+  background-color: #d9534f;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c9302c;
+}
+
+
+
+.dashboard-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.dashboard-card {
+  flex: 1;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.action-card {
+  background-color: #f6ab36;
+  color: white;
+}
+
+.add-user-btn {
+  background-color: white;
+  color: #f6ab36;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-user-btn:hover {
+  background-color: #fff3e0;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-logo {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1; /* Allows the menu to take up all available space above the logout button */
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar a:hover {
+  background: #444;
+}
+
+.icon {
+  color: grey;
+}
+
+.logout-btn {
+  width: 100%;
+  background: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: auto; /* Pushes the button to the bottom */
+}
+
+.logout-btn:hover {
+  background: #c9302c;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.user-info p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.user-info small {
+  font-size: 12px;
+  opacity: 0.8;
+}

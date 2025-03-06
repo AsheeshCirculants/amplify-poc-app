@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pocamplifyapp-dev-1f3dc-authRole",
+      "UnauthRoleArn": "arn:aws:iam::330086204106:role/amplify-pocamplifyapp-dev-1f3dc-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::330086204106:role/amplify-pocamplifyapp-dev-1f3dc-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-pocamplifyapp-dev-1f3dc-deployment",
+      "UnauthRoleName": "amplify-pocamplifyapp-dev-1f3dc-unauthRole",
+      "StackName": "amplify-pocamplifyapp-dev-1f3dc",
+      "StackId": "arn:aws:cloudformation:us-west-2:330086204106:stack/amplify-pocamplifyapp-dev-1f3dc/f4016f60-f01c-11ef-a100-02879ce6ed85",
+      "AmplifyAppId": "d2r61ftxprrwtt"
+    },
+    "categories": {
+      "auth": {
+        "pocamplifyapp062c3736": {}
+      },
+      "function": {
+        "pocAmplifyUsersDB": {
+          "deploymentBucketName": "amplify-pocamplifyapp-dev-1f3dc-deployment",
+          "s3Key": "amplify-builds/pocAmplifyUsersDB-65355167336234764638-build.zip"
+        }
+      },
+      "storage": {
+        "pocAmplifyUsersDB": {}
+      },
+      "api": {
+        "pocAmplifyUsersDB": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2r61ftxprrwtt",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

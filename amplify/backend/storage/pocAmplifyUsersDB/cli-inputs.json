@@ -1,0 +1,10 @@
+{
+  "resourceName": "pocAmplifyUsersDB",
+  "tableName": "pocUsers",
+  "partitionKey": {
+    "fieldName": "email",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
